@@ -46,7 +46,6 @@ $ cd workspace
 
 ```sh
 $ wget https://nodejs.org/dist/v6.11.5/node-v6.11.5-linux-x64.tar.xz
-https://gist.github.com/KatrineFe/06313aefb090c85841a9b471e7b26208
 ```
 
 ```sh
@@ -99,14 +98,12 @@ $ gist REPORT.md
 1. Скачайте библиотеку *boost* с помощью утилиты **wget**. Адрес для скачивания `https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz`.
 ```sh
 $ wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
-https://gist.github.com/KatrineFe/e1675913dec71bd1a62e2638f0065a02
 ```
 
 2. Разархивируйте скаченный файл в директорию `~/boost_1_69_0`
 ```sh
 $ mkdir ~/boost_1_69_0
 $ tar -xvzf boost_1_69_0.tar.gz -C boost_1_69_0
-https://gist.github.com/Katrine/63f0e33046c3272511e782a891ab14ff
 ```
 
 3. Подсчитайте количество файлов в директории `~/boost_1_69_0` **не включая** вложенные директории.
